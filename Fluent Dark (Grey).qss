@@ -1,3 +1,22 @@
+/******************************************************************************/
+/*   Copyright (C) 2014-2015 by Philippe Groarke <philippe.groarke@gmail.com> */
+/*                                                                            */
+/*                                                                            */
+/*   This program is free software: you can redistribute it and/or modify     */
+/*   it under the terms of the GNU General Public License as published by     */
+/*   the Free Software Foundation, either version 2 of the License, or        */
+/*   (at your option) any later version.                                      */
+/*                                                                            */
+/*   This program is distributed in the hope that it will be useful,          */
+/*   but WITHOUT ANY WARRANTY; without even the implied warranty of           */
+/*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            */
+/*   GNU General Public License for more details.                             */
+/*                                                                            */
+/*                                                                            */
+/*   You should have received a copy of the GNU General Public License        */
+/*   along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
+/******************************************************************************/
+
 /* Colors */
 
 OBSThemeMeta {
@@ -18,7 +37,7 @@ OBSTheme {
 
     text: rgb(255,254,255);
     
-    button: rgb(56, 56, 56);
+    button: rgb(55, 55, 55);
     buttonText: rgb(255,254,255);
 
     brightText: rgb(255,254,255);
@@ -32,7 +51,7 @@ OBSTheme {
     primaryLight: rgb(54,92,192);
     primaryDark: rgb(22,31,65);
 
-    highlight: rgb(152, 152, 152);
+    highlight: rgb(158, 158, 158);
     highlightText: rgb(0,0,0);
 
     link: rgb(77,166,255);
@@ -64,6 +83,7 @@ QWidget {
     selection-color: palette(text);
     font-size: 10pt;
     font-family: 'Segoe UI Variable', 'Open Sans', '.AppleSystemUIFont', Helvetica, Arial, 'MS Shell Dlg', sans-serif;
+    background-color: palette(window);
 }
 
 QWidget:disabled {
@@ -112,15 +132,11 @@ SourceTree QWidget {
     margin-bottom: 0;
 }
 
-* [frameShape="1"], * [frameShape="2"], * [frameShape="3"], * [frameShape="4"], * [frameShape="5"], * [frameShape="6"] {
-    border: 1px solid palette(dark);
-}
-
 
 /* Misc */
 
 QAbstractItemView, QStackedWidget#stackedMixerArea QWidget {
-    background-color: palette(base);
+    background-color: palette(dark);
 }
 
 QToolTip {
@@ -241,6 +257,7 @@ SourceTree QLineEdit:focus {
 OBSBasicSettings QListWidget {
     border-radius: 4px;
     padding: 3px;
+    background-color: palette(window);
 }
 
 OBSBasicSettings QListWidget::item {
@@ -250,7 +267,7 @@ OBSBasicSettings QListWidget::item {
 
 /* Settings properties view */
 OBSBasicSettings #PropertiesContainer {
-    background-color: palette(dark);
+    background-color: palette(window);
 }
 
 /* Dock Widget */
@@ -261,7 +278,7 @@ OBSDock > QWidget {
 }
 
 OBSDock QFrame {
-    background: palette(dark);
+    background-color: palette(dark);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -290,7 +307,7 @@ QDockWidget {
 
 QDockWidget::title {
     text-align: left;
-    background-color: palette(base);
+    background-color: palette(dark);
     padding: 6px 8px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -324,7 +341,7 @@ OBSBasicStatusBar {
 /* Group Box */
 
 QGroupBox {
-    background: palette(dark);
+    background: palette(window);
     border-radius: 4px;
     padding-top: 32px;
     padding-bottom: 8px;
@@ -491,7 +508,7 @@ QScrollBar::handle:pressed {
 /* Source Context Bar */
 
 #contextContainer {
-  background-color: palette(dark);
+  background-color: palette(window);
   margin-top: 4px;
   border-radius: 4px;
 }
@@ -507,7 +524,6 @@ QPushButton#sourcePropertiesButton {
 
 QPushButton#sourceFiltersButton {
     qproperty-icon: url(./Fluent Dark Grey/filter.svg);
-
 }
 
 * [themeID="filtersIcon"] {
@@ -519,6 +535,7 @@ QPushButton#sourceFiltersButton {
 QToolBar {
     background-color: palette(dark);
     border: none;
+    border-radius: 5px;
     padding: 0px;
     margin: 4px 0px;
 }
@@ -1209,13 +1226,13 @@ QLabel#errorLabel {
 }
 
 * [themeID="aboutHLayout"] {
-    background-color: palette(base);
+    background-color: palette(window);
 }
 
 /* Canvas / Preview background color */
 
 OBSQTDisplay {
-    qproperty-displayBackgroundColor: rgb(46, 46, 46);
+    qproperty-displayBackgroundColor: palette(window);
     border-radius: 10px;
 }
 
@@ -1720,5 +1737,5 @@ QDialogButtonBox {
 
 /* Stats dialog */
 OBSBasicStats {
-    background: palette(dark);
+    background-color: palette(window);
 }
