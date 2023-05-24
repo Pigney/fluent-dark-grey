@@ -2,7 +2,6 @@
 ### This is a fork of dogeshep's Fluent Dark theme for OBS Studio, altered to resemble the native Grey theme. Some additional fixes were also applied.
 
 ![Fluent Dark Grey Preview](https://github.com/Pigney/fluent-dark-grey/assets/34039700/34fe8cc0-e313-4d3f-a067-430564d3ffae)
-### Also included is a .reg file for dark Windows Titlebars as seen in the screenshot. This can be deleted after it has been run.
 
 Installation:\
 Unzip the Zip file into the following folder:\
