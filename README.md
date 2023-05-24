@@ -1,10 +1,11 @@
 # fluent-dark-grey
-### This is a fork of dogeshep's Fluent Dark theme for OBS Studio, altered to resemble the native Grey theme. Some additional fixes were also applied.
+### This is a fork of dogeshep's Fluent Dark theme for OBS Studio, altered to closer resemble Windows 11. Some additional fixes were also applied.
 
-![Fluent Dark Grey Preview](https://github.com/Pigney/fluent-dark-grey/assets/34039700/34fe8cc0-e313-4d3f-a067-430564d3ffae)
+![OBS STUDIO FLUENT DARK GREY PREVIEW](https://github.com/Pigney/fluent-dark-grey/assets/34039700/60780af2-81cc-4f6c-b576-766d34927ca2)
 
 Installation:\
-Unzip the Zip file into the following folder:\
+Download code as zip, extract.
+Copy "Fluent Dark (Grey).qss" and "Fluent Dark Grey" into the following folder:\
 Windows: %APPDATA%\obs-studio\themes\ \
 macOS: ~/Library/Application Support/obs-studio/themes/\
 Linux: ~/.config/obs-studio/themes/\
@@ -13,6 +14,8 @@ Go to Settings > General and select 'Fluent Dark (Grey)' in the Themes dropdown.
 
 List of changes:
 ```
+====================== 2023-05-23
+
 remove "qproperty-peakDecayRate: 23.4;" to prevent forced Fast decay rate.
 change "qproperty-foregroundErrorColor:" to "rgb(255, 64, 64);"
 change "OBSTheme {highlight:" to "rgb(152, 152, 152);"
@@ -33,4 +36,11 @@ changed color of Controls buttons to grey.
 changed "* [themeID="error"] {color:" to "rgb(230,0,0);"
 changed "OBSHotkeyLabel[hotkeyPairHover=true] {color:" to "rgb(180,180,180);"
 changed "*[gridMode="true"] SceneTree::item:hover:!pressed:selected, *[gridMode="false"] SceneTree::item:hover:!pressed:selected {background-color:" to "rgb(200, 200, 200);"
+
+====================== 2023-05-24/5
+
+Restored copyright notice to comply with GPLv2 license, since Fluent (Dark) is based on Yami/Grey.
+Added license file for fluentui-system-icons to comply with MIT License.
+Replaced unlocked.svg, locked.svg, ./settings/general.svg, hidden.svg, visible.svg, ./settings/audio.svg, mute.svg, unassigned.svg, filter.svg and trash.svg with fluent icons, modified to improve visibility.
+Changed a variety of colors to match Fluent UI (Windows Settings used as reference)
 ```
