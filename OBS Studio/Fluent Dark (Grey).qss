@@ -84,6 +84,7 @@ QWidget {
     font-size: 10pt;
     font-family: 'Segoe UI Variable', 'Open Sans', '.AppleSystemUIFont', Helvetica, Arial, 'MS Shell Dlg', sans-serif;
     background-color: palette(window);
+    outline: none;
 }
 
 QWidget:disabled {
@@ -335,7 +336,7 @@ QScrollArea {
 }
 
 OBSBasicStatusBar {
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 /* Group Box */
@@ -1129,6 +1130,10 @@ VolumeMeter {
 
 QStatusBar::item {
     border: none;
+}
+
+StatusBarWidget > QFrame {
+    padding: 0px 8px;
 }
 
 /* Table View */
