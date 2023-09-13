@@ -12,8 +12,8 @@ Installation:
 
 Download zip, extract.\
 Copy "Fluent Dark (Grey).qss" and "Fluent Dark Grey" into the following folder:\
-Windows: %APPDATA%\\obs-studio\\themes\\\
-macOS: ~/Library/Application Support/obs-studio/themes/\
-Linux: ~/.config/obs-studio/themes/\
+Windows: `%APPDATA%\obs-studio\themes\`\
+macOS: `~/Library/Application Support/obs-studio/themes/`\
+Linux: `~/.config/obs-studio/themes/`\
 Restart OBS Studio\
 Go to Settings > General and select 'Fluent Dark (Grey)' in the Themes dropdown.
