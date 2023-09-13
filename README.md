@@ -1,6 +1,6 @@
 # Fluent Dark (Grey)
 
-### This is a fork of dogeshep's Fluent Dark theme for OBS Studio, altered to closer resemble Windows 11. Some additional fixes were also applied.
+### This is a fork of [dogeshep's Fluent Dark theme](https://obsproject.com/forum/resources/fluent-dark.1666/) for OBS Studio, altered to closer resemble Windows 11. Some additional fixes were also applied.
 
   
 
