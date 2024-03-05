@@ -401,7 +401,7 @@ QScrollBar::up-arrow:vertical {
     height: 6px;
     border-radius: 3px;
     background: rgb(160, 160, 160);*/
-    image: url(./Fluent Dark Grey/scrollbar/caret_top.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_top.svg");
 }
 
 QScrollBar::down-arrow:vertical {
@@ -410,7 +410,7 @@ QScrollBar::down-arrow:vertical {
     height: 6px;
     border-radius: 3px;
     background: rgb(160, 160, 160);*/
-    image: url(./Fluent Dark Grey/scrollbar/caret_bottom.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_bottom.svg");
 }
 
 
@@ -457,7 +457,7 @@ QScrollBar::left-arrow:horizontal {
     height: 6px;
     border-radius: 3px;
     background: rgb(160, 160, 160);*/
-    image: url(./Fluent Dark Grey/scrollbar/caret_left.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_left.svg");
 }
 
 QScrollBar::right-arrow:horizontal {
@@ -466,7 +466,7 @@ QScrollBar::right-arrow:horizontal {
     height: 6px;
     border-radius: 3px;
     background: rgb(160, 160, 160);*/
-    image: url(./Fluent Dark Grey/scrollbar/caret_right.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_right.svg");
 }
 
 QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
@@ -695,11 +695,11 @@ QTabBar::scroller { /* the width of the scroll buttons */
 
 
 QTabBar QToolButton::right-arrow { /* the arrow mark in the tool buttons */
-    image: url(./Fluent Dark Grey/scrollbar/caret_right.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_right.svg");
 }
 
 QTabBar QToolButton::left-arrow {
-    image: url(./Fluent Dark Grey/scrollbar/caret_left.svg);
+    image: url("./Fluent Dark Grey/scrollbar/caret_left.svg");
 }
 
 /* ComboBox */
@@ -743,8 +743,6 @@ QDateTimeEdit::down-arrow {
     width: 100%;
 }
 
-
-
 QComboBox::down-arrow:on,
 QDateTimeEdit::down-arrow:on {
     image: url(./Fluent Dark Grey/arrows/up.svg);
@@ -769,8 +767,6 @@ QComboBox:editable:focus {
     background-color: rgb(51, 51, 51);
     border-bottom: 2px solid palette(highlight);
 }
-
-
 
 QComboBox::drop-down:editable,
 QDateTimeEdit::drop-down:editable {
@@ -894,7 +890,6 @@ QSpinBox::up-arrow:hover, QDoubleSpinBox::up-arrow:hover {
     margin: -4px;
 }
 
-
 QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
     image: url(./Fluent Dark Grey/arrows/down.svg);
     width: 100%;
@@ -934,7 +929,6 @@ QPushButton[themeID="vcamButton"]:!hover:!pressed:checked,
     border: 1px solid rgb(152, 152, 152);
     color: rgb(0,0,0);
 }
-
 
 
 /* Primary Control Button Hover Coloring */
@@ -1174,15 +1168,15 @@ QHeaderView::section {
 /* Mute CheckBox */
 
 MuteCheckBox::indicator:checked {
-    image: url(./Fluent Dark Grey/mute.svg);
+    image: url("./Fluent Dark Grey/mute.svg");
 }
 
 MuteCheckBox::indicator:indeterminate {
-    image: url(./Fluent Dark Grey/unassigned.svg);
+    image: url("./Fluent Dark Grey/unassigned.svg");
 }
 
 MuteCheckBox::indicator:unchecked {
-    image: url(./Fluent Dark Grey/settings/audio.svg);
+    image: url("./Fluent Dark Grey/settings/audio.svg");
 }
 
 OBSHotkeyLabel[hotkeyPairHover=true] {
@@ -1293,9 +1287,9 @@ OBSBasicSettings {
 }
 
 /* Checkboxes */
-QCheckBox {
+/* QCheckBox {
 
-}
+} */
 
 QCheckBox::indicator,
 QGroupBox::indicator {
@@ -1309,46 +1303,46 @@ QGroupBox::indicator {
 
 QCheckBox::indicator:unchecked,
 QGroupBox::indicator:unchecked {
-	image: url(./Fluent Dark Grey/checkbox/checkbox_unchecked.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_unchecked.svg");
 }
 
 QCheckBox::indicator:unchecked:hover,
 QGroupBox::indicator:unchecked:hover {
 	border: none;
-	image: url(./Fluent Dark Grey/checkbox/checkbox_unchecked_focus.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_unchecked_focus.svg");
 }
 
 QCheckBox::indicator:unchecked:pressed,
 QGroupBox::indicator:unchecked:pressed {
     border: none;
-    image: url(./Fluent Dark Grey/checkbox/checkbox_unchecked_pressed.svg);
+    image: url("./Fluent Dark Grey/checkbox/checkbox_unchecked_pressed.svg");
 }
 
 QCheckBox::indicator:checked,
 QGroupBox::indicator:checked {
-	image: url(./Fluent Dark Grey/checkbox/checkbox_checked.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_checked.svg");
 }
 
 QCheckBox::indicator:checked:hover,
 QGroupBox::indicator:checked:hover {
 	border: none;
-	image: url(./Fluent Dark Grey/checkbox/checkbox_checked_focus.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_checked_focus.svg");
 }
 
 QCheckBox::indicator:checked:pressed,
 QGroupBox::indicator:checked:pressed {
     border: none;
-    image: url(./Fluent Dark Grey/checkbox/checkbox_checked_pressed.svg);
+    image: url("./Fluent Dark Grey/checkbox/checkbox_checked_pressed.svg");
 }
 
 QCheckBox::indicator:checked:disabled,
 QGroupBox::indicator:checked:disabled {
-	image: url(./Fluent Dark Grey/checkbox/checkbox_checked_disabled.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_checked_disabled.svg");
 }
 
 QCheckBox::indicator:unchecked:disabled,
 QGroupBox::indicator:unchecked:disabled {
-	image: url(./Fluent Dark Grey/checkbox/checkbox_unchecked_disabled.svg);
+	image: url("./Fluent Dark Grey/checkbox/checkbox_unchecked_disabled.svg");
 }
 
 /* Locked CheckBox */
@@ -1483,25 +1477,25 @@ OBSHotkeyWidget QPushButton {
 
 /* Sources List Group Collapse Checkbox */
 
-SourceTreeSubItemCheckBox {
+QCheckBox[sourceTreeSubItem=true] {
     background: transparent;
     outline: none;
     padding: 0px;
 }
 
-SourceTreeSubItemCheckBox::indicator {
+QCheckBox[sourceTreeSubItem=true]::indicator {
     width: 12px;
     height: 12px;
 }
 
-SourceTreeSubItemCheckBox::indicator:checked,
-SourceTreeSubItemCheckBox::indicator:checked:hover {
-    image: url(./Fluent Dark Grey/arrows/expand.svg);
+QCheckBox[sourceTreeSubItem=true]::indicator:checked,
+QCheckBox[sourceTreeSubItem=true]::indicator:checked:hover {
+    image: url("./Fluent Dark Grey/arrows/expand.svg");
 }
 
-SourceTreeSubItemCheckBox::indicator:unchecked,
-SourceTreeSubItemCheckBox::indicator:unchecked:hover {
-    image: url(./Fluent Dark Grey/arrows/collapse.svg);
+QCheckBox[sourceTreeSubItem=true]::indicator:unchecked,
+QCheckBox[sourceTreeSubItem=true]::indicator:unchecked:hover {
+    image: url("./Fluent Dark Grey/arrows/collapse.svg");
 }
 
 /* Source Icons */
