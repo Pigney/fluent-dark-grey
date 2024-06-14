@@ -152,6 +152,7 @@
     --padding_base: calc(0.5px * var(--padding_base_value));
     --padding_large: calc(1px * var(--padding_base_value));
     --padding_xlarge: calc(1.75px * var(--padding_base_value));
+    --padding_xxlarge: calc(2.25px * var(--padding_base_value));
     --padding_small: calc(0.25px * var(--padding_base_value));
 
     --padding_wide: calc(8px + calc(2 * var(--padding_base_value)));
@@ -994,15 +995,30 @@ QSpinBox::down-arrow:hover, QDoubleSpinBox::down-arrow:hover {
 
 
 /* Controls Dock */
-#controlsDock QPushButton {
-    margin: 2px;
+#controlsFrame {
+    padding: var(--padding_large);
+}
+
+#controlsFrame QPushButton {
+    margin: var(--spacing_base) var(--spacing_small);
 }
 
 #streamButton,
 #recordButton,
-QPushButton[themeID="replayBufferButton"],
+#replayBufferButton,
 #broadcastButton {
-    padding: 10px;
+    padding: var(--padding_xxlarge);
+}
+
+#pauseRecordButton,
+#saveReplayButton {
+    padding: var(--padding_xxlarge) var(--padding_base);
+    width: var(--input_height);
+    max-width: var(--input_height);
+}
+
+#virtualCamConfigButton {
+    padding: 6px var(--padding_base);
 }
 
 /* Primary Control Button Checked Coloring */
