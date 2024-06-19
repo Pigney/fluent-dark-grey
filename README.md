@@ -4,7 +4,7 @@
 
   
 
-![OBSPreview0 2](https://github.com/Pigney/fluent-dark-grey/assets/34039700/1b5d6e9f-75c4-47f8-91fa-6cbae67616b6)
+![OBS Studio 30 2 Preview](https://github.com/Pigney/fluent-dark-grey/assets/34039700/8b7d52d3-74aa-43d2-9b63-20c8140db47f)
 
 
 
