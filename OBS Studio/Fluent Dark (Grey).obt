@@ -20,7 +20,7 @@
 /* Colors */
 
 @OBSThemeMeta {
-    name: 'Fluent Dark (grey)';
+    name: 'Fluent Dark (Grey)';
     id: 'fluentdarkgrey';
     author: 'Pigney';
     dark: 'true';
