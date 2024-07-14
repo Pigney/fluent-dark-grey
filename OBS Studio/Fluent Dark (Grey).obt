@@ -22,7 +22,7 @@
 @OBSThemeMeta {
     name: 'Fluent Dark (Grey)';
     id: 'fluentdarkgrey';
-    author: 'Pigney';
+    author: 'pigney';
     dark: 'true';
 }
 
@@ -1828,7 +1828,7 @@ QSlider::handle:horizontal[themeID="tBarSlider"] {
 
 /* YouTube Integration */
 OBSYoutubeActions {
-    qproperty-thumbPlaceholder: url(theme:./Dark/sources/image.svg);
+    qproperty-thumbPlaceholder: url(theme:Fluent Dark Grey/sources/image.svg);
 }
 
 #ytEventList QLabel {
