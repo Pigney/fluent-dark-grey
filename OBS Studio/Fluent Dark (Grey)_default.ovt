@@ -1,0 +1,7 @@
+@OBSThemeMeta {
+    name: 'Default';
+    id: 'fluentdarkgrey-default';
+    extends: 'fluentdarkgrey';
+    author: 'pigney';
+    dark: 'true';
+}
