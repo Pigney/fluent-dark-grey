@@ -741,7 +741,7 @@ QScrollBar:horizontal {
 QScrollBar:horizontal {
     background-color: rgb(45, 45, 45);
     border-radius: 5px;
-    height: 12;
+    height: 12px;
     margin: 0px;
 }
 
@@ -814,6 +814,28 @@ QScrollBar::handle:horizontal {
 QScrollBar::handle:pressed {
     background-color: rgb(160, 160, 160);
     border-color: none;
+}
+
+QScrollBar::handle:disabled {
+    background: transparent;
+    border-color: transparent;
+}
+
+#previewXScrollBar,
+#previewYScrollBar {
+    background: transparent;
+}
+
+#previewXScrollBar::left-arrow,
+#previewXScrollBar::right-arrow,
+#previewYScrollBar::up-arrow,
+#previewYScrollBar::down-arrow {
+    image: none;
+}
+
+#previewScalePercent,
+#previewScalingMode {
+    margin-left: 6px;
 }
 
 /* Source Context Bar */
