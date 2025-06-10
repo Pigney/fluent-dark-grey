@@ -103,6 +103,7 @@
     --text: rgb(255,254,255);
     
     --button: rgb(55, 55, 55);
+    --buttonHover: rgb(61, 61, 61);
     --buttonText: rgb(255,254,255);
 
     --brightText: rgb(255,254,255);
@@ -499,6 +500,7 @@ QMenuBar::item {
 
 QMenuBar::item:selected {
 	background: rgb(53, 53, 53);
+    border-radius: 4px;
 }
 
 /* Item Lists */
@@ -836,6 +838,7 @@ QScrollBar::handle:disabled {
 #previewScalePercent,
 #previewScalingMode {
     margin-left: 6px;
+    margin-right: 6px;
 }
 
 /* Source Context Bar */
@@ -1318,6 +1321,18 @@ QPushButton[themeID="vcamButton"]:pressed:checked,
 
 /* Buttons */
 
+#previewZoomInButton, #previewZoomOutButton {
+    background-color: var(--button);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 4px;
+    max-height: 0; /* wtf?? */
+    min-width: 38px;
+    padding: 14px 0px 14px 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    qproperty-iconSize: 14px;
+}
+
 QPushButton {
     color: var(--buttonText);
     background-color: var(--button);
@@ -1336,11 +1351,11 @@ QPushButton:checked {
     background-color: rgb(152, 152, 152);
 }
 
-QPushButton:hover {
+QPushButton:hover, #previewZoomInButton:hover, #previewZoomOutButton:hover {
     background-color: rgb(61, 61, 61);
 }
 
-QPushButton:pressed {
+QPushButton:pressed, #previewZoomInButton:pressed, #previewZoomOutButton:pressed {
     background-color: rgb(51, 51, 51);
 }
 
