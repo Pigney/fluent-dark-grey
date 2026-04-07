@@ -371,6 +371,14 @@
     qproperty-icon: url(theme:fluentdarkgrey/save.svg);
 }
 
+.icon-layout-vertical {
+    qproperty-icon: url(theme:fluentdarkgrey/layout-vertical.svg);
+}
+
+.icon-layout-horizontal {
+    qproperty-icon: url(theme:fluentdarkgrey/layout-horizontal.svg);
+}
+
 /* Media icons */
 
 .icon-media-play {
@@ -2001,6 +2009,32 @@ MuteCheckBox::indicator:checked:disabled {
 MuteCheckBox::indicator:unchecked:disabled {
 	image: url(theme:fluentdarkgrey/settings/audio.svg);
 }
+
+/* v32 */
+
+.btn-mute {
+    border: 0;
+    qproperty-icon: url(theme:fluentdarkgrey/settings/audio.svg);
+}
+
+.btn-mute.checked {
+    qproperty-icon: url(theme:fluentdarkgrey/mute.svg);
+}
+
+.btn-mute.mute-unassigned {
+    qproperty-icon: url(theme:fluentdarkgrey/unassigned.svg);
+}
+
+.btn-monitor {
+    border: 0;
+    qproperty-icon: url(theme:fluentdarkgrey/headphones-off.svg);
+}
+
+.btn-monitor.checked {
+    qproperty-icon: url(theme:fluentdarkgrey/headphones.svg);
+}
+
+/* END v32 */
 
 #hotkeyFilterReset {
     margin-top: 0px;
