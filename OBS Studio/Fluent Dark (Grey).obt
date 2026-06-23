@@ -1244,13 +1244,13 @@ QSpinBox::down-arrow:hover, QDoubleSpinBox::down-arrow:hover {
     padding: -4px;
 }
 
-
 /* Controls Dock */
 #controlsFrame {
     padding: var(--padding_large);
 }
 
 #controlsFrame QPushButton {
+    background-color: var(--button);
     margin: var(--spacing_base) var(--spacing_small);
 }
 
@@ -1530,6 +1530,10 @@ QSlider::handle:disabled {
 #stackedMixerArea {
     border: none;
     padding: 0px;
+}
+
+OBSDock QWidget {
+    background-color: var(--dark);
 }
 
 VolControl #volLabel {
